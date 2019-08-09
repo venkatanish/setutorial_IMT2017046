@@ -20,7 +20,13 @@ public class javaAdd
 					   a = scan.nextFloat();
 					   b = scan.nextFloat();
 					   res = a+b;
-					   System.out.println("result : "res);
+					   System.out.println(res);
+					   break;
+				case '2'  : System.out.print("enter 2 numbers : ");
+					   a = scan.nextFloat();
+					   b = scan.nextFloat();
+					   res = a*b;
+					   System.out.println(res);
 					   break;
 				case '3' : System.exit(0);
 					   break;
